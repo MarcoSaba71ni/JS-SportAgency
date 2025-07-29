@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Register">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/style.css" rel="stylesheet" />
+        <link href="../css/account.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div id="logo-section">
+                <a href="../index.html"> <img src="https://i.postimg.cc/W3jsrBdK/Team-Turco-Logo-Header.jpg" class="image-header"></a>
+            </div>
+            <div id="links-header">
+                <a href="../index.html">Home</a>   
+                <a href="../about.html">About</a>
+                <a href="../contact.html">Contact</a>
+            </div>
+            <div id="profile-header">
+                <a href="#">sign in</a>
+                <a>/</a>
+                <a href="#">register</a>
+            </div>
+        </header>
+        <main class="main-register">
+            <img src="https://i.postimg.cc/W3jsrBdK/Team-Turco-Logo-Header.jpg" class="register_img">
+            <form id="register-form">
+                <div>
+                   <p>Full Name</p>
+                    <input type="text" id="name" class="input-box" required> 
+                </div>
+                <div>
+                    <p>email</p>
+                    <input type="text" id="email" class="input-box" required>
+                </div>
+                <div>
+                    <p>password</p>
+                    <input type="password" minlength="8" id="password" class="input-box" required>
+                </div>
+                <div>
+                    <p>Bio</p>
+                    <textarea id="bio" class="input-box" rows="3" required></textarea>
+                </div>
+                <div>
+                    <p>Image Banner (optional)</p>
+                    <input type="text" id="img-banner" class="input-box">
+                </div>
+                <div>
+                    <p>Banner Image Alt Text (optional)</p>
+                    <input type="text" id="banner-alt" class="input-box" placeholder="Describe the banner image" />
+                </div>
+                <div>
+                    <p>If you already have an account <a href="login.html">Click here</a></p>
+                </div>
+                <div>
+                    <button type="submit" id="submit-btn" class="button_cta">Register</button>
+                </div>
+
+            </form> 
+        </main>
+       <script src="../js/register.js"></script> 
+    </body>
+</html>

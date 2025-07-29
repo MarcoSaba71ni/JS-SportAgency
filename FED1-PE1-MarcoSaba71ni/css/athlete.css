@@ -1,0 +1,59 @@
+.athlete-main {
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
+
+
+.single-img {
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center 50px;
+}
+
+
+.athlete-styling {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.text-section {
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section p {
+    color: #FFF;
+    font-family: Aldrich;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+}
+
+.single-name {
+    color: #FFF;
+    font-family: "Montserrat Subrayada";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10.24px;
+}
+
+.button-wrapper {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
