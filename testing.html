@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hamburger Menu Test</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .hamburguer {
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    width: 40px;
+  }
+
+  .drop-down {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 10px;
+    flex-direction: column;
+    width: 150px;
+  }
+
+  .drop-down.show {
+    display: flex;
+  }
+
+  .drop-down a, .drop-down button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .drop-down a:hover, .drop-down button:hover {
+    background-color: #555;
+  }
+</style>
+</head>
+<body>
+
+<div class="hamburguer" id="hamburguer-btn">
+  <!-- Using a simple bars icon from FontAwesome CDN or you can replace with text -->
+  <button type="button" aria-label="Menu">&#9776;</button>
+</div>
+
+<div class="drop-down" id="drop-down">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="contact.html">Contact</a>
+  <a href="profile/my_profile.html">My Profile</a>
+  <button class="logout-btn">Logout</button>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const hamburger = document.getElementById("hamburguer-btn");
+    const dropdown = document.getElementById("drop-down");
+
+    hamburger.addEventListener("click", () => {
+      console.log("Hamburger clicked!");  // Check if click works
+      dropdown.classList.toggle("show");
+    });
+  });
+</script>
+
+</body>
+</html>
