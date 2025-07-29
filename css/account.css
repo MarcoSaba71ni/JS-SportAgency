@@ -1,0 +1,122 @@
+
+/* Login Page */ 
+
+.main-login {
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px ;
+}
+
+.log-in_img {
+    width: 342px;
+    height: 342px;
+}
+
+.log-in_content {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat Subrayada", sans-serif;
+    color: white;
+}
+
+
+.log-in_info {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat Subrayada", sans-serif;
+    color: white;
+}
+
+.div-btn {
+    padding-top: 20px;
+}
+
+/* Register page */
+
+.input-box {
+    color: white;
+    font-size: 1.25rem;           /* 20px */
+    padding-left: 1rem;           /* 16px */
+    width: 100%;                  /* Full width of container */
+    max-width: 25rem;             /* Max width = 400px */
+    height: 3.2rem;               /* 51px */
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: #383434;
+    box-sizing: border-box;     
+}
+
+.register-link {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.button_cta {
+    color: #FFF;
+    font-family: "Montserrat Subrayada";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: #383434;
+}
+
+.button_cta:hover {
+    background-color: #D9D9D9;
+    color: black;
+    transition: 0,8s ease;
+    border: #383434 solid 1px;
+}
+
+.main-register {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat Subrayada";
+}
+
+.register_img {
+    margin: 33px 0 26px 0;
+    width: 230px;
+    height: 230px;
+}
+
+.main-register button {
+    margin: 46px 0 116px 0;
+}
+
+@media (max-width: 768px) {
+    .log-in_img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .log-in_content h2, 
+    .log-in_content h3, 
+    .log-in_info h3,
+    .log-in_info p {
+        font-size: 14px;
+
+    }
+
+    .input-box {
+        max-width: 22rem;             /* Max width = 400px */
+        height: 3rem; 
+    }
+}

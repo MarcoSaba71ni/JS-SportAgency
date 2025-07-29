@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Update Post Page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css/style.css" rel="stylesheet" />
+        <link href="../css/edit.css" rel="stylesheet" />
+        <title> Team Turco || Edit Post </title>
+        <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo-section">
+                <a href="../index.html"> <img src="https://i.postimg.cc/W3jsrBdK/Team-Turco-Logo-Header.jpg" class="image-header"></a>
+            </div>
+            <div id="links-header">
+                <a href="../index.html">Home</a>
+                <a href="../contact.html">Contact</a>
+                <a href="../about.html">About Us</a>
+            </div>
+            <div id="icon-header">
+                <a href="profile/my_profile.html"><i class="fa-regular fa-user" style="color: white;"></i></a>
+            </div>
+                        <div class="hamburguer">
+                <button id="hamburguer-btn" type="button"><i class="fa-solid fa-bars" style="color: black;"></i></button>
+            </div>
+            <div class="drop-down" id="drop-down">
+                <a href="../index.html">Home</a>
+                <a href="../about.html">About Us</a>
+                <a href="../contact.html">Contact</a>
+                
+                <a href="../profile/my_profile.html">My Profile</a>
+                <button class="logout-btn">Logout</button>
+            </div>
+        </header>
+        <main>
+            <h1 class="create-h1">Update Your Own Profile</h1>
+            <div class="create-wrap">
+                <form class="create-form">
+                    <div class="create-content">
+                        <label>Athlete Name</label>
+                        <input id="athlete-name" type="text" class="create-input">
+                    </div>
+                    <div class="create-content">
+                        <label>Biography</label>
+                        <textarea id ="athlete-bio" class="biography-input"></textarea>
+                    </div>
+                    <div class="create-content">
+                        <label>Image URL</label>
+                        <input type="text" id="athlete-url" placeholder="drop your image url here" class="create-input">
+                    </div>
+                    <div class="send-div">
+                        <button type="submit" class="button_cta">Update</button>
+                    </div>
+                </form>
+            </div>
+        </main>*
+    <script src="../js/edit.js"></script>
+    <script src="../js/header.js"></script>
+    </body>
+</html>
